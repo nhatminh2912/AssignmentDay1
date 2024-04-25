@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Rookie__Batch7\\Assignments\\AssignmentDay1\\AssignmentDay1.csproj",
+      "projectUniqueName": "D:\\Rookie__Batch7\\Assignments\\AssignmentDay1\\AssignmentDay1.csproj",
       "projectName": "AssignmentDay1",
-      "projectPath": "d:\\Rookie__Batch7\\Assignments\\AssignmentDay1\\AssignmentDay1.csproj",
+      "projectPath": "D:\\Rookie__Batch7\\Assignments\\AssignmentDay1\\AssignmentDay1.csproj",
       "packagesPath": "C:\\Users\\nhatm\\.nuget\\packages\\",
-      "outputPath": "d:\\Rookie__Batch7\\Assignments\\AssignmentDay1\\obj\\",
+      "outputPath": "D:\\Rookie__Batch7\\Assignments\\AssignmentDay1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nhatm\\AppData\\Roaming\\NuGet\\NuGet.Config",

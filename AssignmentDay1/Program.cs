@@ -23,7 +23,7 @@ class Program
 
     public static bool MainMenu(List<Member> members)
     {
-        Console.WriteLine("Choose an option:");
+        Console.WriteLine("\n Choose an option:");
         Console.WriteLine("1. Return a list of members who is Male");
         Console.WriteLine("2. Return the oldest one based on “Age”");
         Console.WriteLine("3. Return a new list that contains Full Name only");
@@ -52,7 +52,11 @@ class Program
                 Q5(members);
                 return true;
             case "6":
+            try{
                 Console.Clear();
+            }catch (Exception ex) {
+
+            }
                 return true;
             case "7":
                 return false;
