@@ -1,0 +1,14 @@
+d:\Rookie__Batch7\Assignments\AssignmentDay1\bin\Debug\net8.0\AssignmentDay1.exe
+d:\Rookie__Batch7\Assignments\AssignmentDay1\bin\Debug\net8.0\AssignmentDay1.deps.json
+d:\Rookie__Batch7\Assignments\AssignmentDay1\bin\Debug\net8.0\AssignmentDay1.runtimeconfig.json
+d:\Rookie__Batch7\Assignments\AssignmentDay1\bin\Debug\net8.0\AssignmentDay1.dll
+d:\Rookie__Batch7\Assignments\AssignmentDay1\bin\Debug\net8.0\AssignmentDay1.pdb
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\AssignmentDay1.GeneratedMSBuildEditorConfig.editorconfig
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\AssignmentDay1.AssemblyInfoInputs.cache
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\AssignmentDay1.AssemblyInfo.cs
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\AssignmentDay1.csproj.CoreCompileInputs.cache
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\AssignmentDay1.dll
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\refint\AssignmentDay1.dll
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\AssignmentDay1.pdb
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\AssignmentDay1.genruntimeconfig.cache
+d:\Rookie__Batch7\Assignments\AssignmentDay1\obj\Debug\net8.0\ref\AssignmentDay1.dll
