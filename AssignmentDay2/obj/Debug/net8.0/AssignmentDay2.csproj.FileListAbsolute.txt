@@ -1,0 +1,14 @@
+D:\Rookie__Batch7\Assignments\AssignmentDay2\bin\Debug\net8.0\AssignmentDay2.exe
+D:\Rookie__Batch7\Assignments\AssignmentDay2\bin\Debug\net8.0\AssignmentDay2.deps.json
+D:\Rookie__Batch7\Assignments\AssignmentDay2\bin\Debug\net8.0\AssignmentDay2.runtimeconfig.json
+D:\Rookie__Batch7\Assignments\AssignmentDay2\bin\Debug\net8.0\AssignmentDay2.dll
+D:\Rookie__Batch7\Assignments\AssignmentDay2\bin\Debug\net8.0\AssignmentDay2.pdb
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\AssignmentDay2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\AssignmentDay2.AssemblyInfoInputs.cache
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\AssignmentDay2.AssemblyInfo.cs
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\AssignmentDay2.csproj.CoreCompileInputs.cache
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\AssignmentDay2.dll
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\refint\AssignmentDay2.dll
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\AssignmentDay2.pdb
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\AssignmentDay2.genruntimeconfig.cache
+D:\Rookie__Batch7\Assignments\AssignmentDay2\obj\Debug\net8.0\ref\AssignmentDay2.dll
