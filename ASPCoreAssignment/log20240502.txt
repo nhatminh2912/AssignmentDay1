@@ -1,0 +1,10 @@
+2024-05-02 16:30:53.814 +07:00 [INF] https
+2024-05-02 16:30:53.848 +07:00 [INF] /
+2024-05-02 16:30:53.849 +07:00 [INF] localhost:7280
+2024-05-02 16:30:53.849 +07:00 [INF] 
+2024-05-02 16:30:53.849 +07:00 [INF] Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+2024-05-02 16:50:43.929 +07:00 [INF] https
+2024-05-02 16:50:43.994 +07:00 [INF] /
+2024-05-02 16:50:43.994 +07:00 [INF] localhost:7280
+2024-05-02 16:50:43.994 +07:00 [INF] 
+2024-05-02 16:50:43.994 +07:00 [INF] Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
