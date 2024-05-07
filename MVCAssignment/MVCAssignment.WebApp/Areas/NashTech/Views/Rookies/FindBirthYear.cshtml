@@ -1,0 +1,61 @@
+﻿@using MVCAssignment.WebApp.Areas.NashTech.Models;
+@model List<Person>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>List</title>
+    <style>
+        /* Add some basic styling for better appearance */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Information Table</h2>
+    <div>URL should be like this: ~/Rookies/FindBirthYear?method="greater/less/equal"&year="your choice of years"</div>
+    <table>
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>DOB</th>
+                <th>Phone Number</th>
+                <th>Birth Place</th>
+                <th>Is Graduated</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                <tr>
+                    <td>@i.FirstName</td>
+                    <td>@i.LastName</td>
+                    <td>@i.Gender</td>
+                    <td>@i.DOB</td>
+                    <td>@i.PhoneNumber</td>
+                    <td>@i.BirthPlace</td>
+                    <td>@i.isGraduated</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>
