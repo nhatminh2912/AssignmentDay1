@@ -4,6 +4,7 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Models
 {
     public class Person
     {
+        public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
         public GenderType Gender { get; set; }
@@ -15,8 +16,9 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Models
         {
 
         }
-        public Person(string firstName, string lastName, GenderType gender, DateOnly dOB, string phoneNumber, string birthPlace, bool isGraduated)
+        public Person(int iD, string firstName, string lastName, GenderType gender, DateOnly dOB, string phoneNumber, string birthPlace, bool isGraduated)
         {
+            Id = iD;
             FirstName = firstName;
             LastName = lastName;
             Gender = gender;

@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Rookie__Batch7\Assignments\MVCAssignment\MVCAssignment.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FindBirthYear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xGaW5kQmlydGhZZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +48,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Views/Home/Index.cshtml]

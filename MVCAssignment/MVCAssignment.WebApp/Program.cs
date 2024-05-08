@@ -1,5 +1,8 @@
 
 
+using MVCAssignment.WebApp.Areas.NashTech.Controllers;
+using MVCAssignment.WebApp.Areas.NashTech.Models;
+
 namespace MVCAssignment.WebApp
 {
     public class Program
@@ -7,6 +10,8 @@ namespace MVCAssignment.WebApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddScoped<IPersonService, PersonService>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -33,7 +38,7 @@ namespace MVCAssignment.WebApp
                 areaName: "NashTech",
                 pattern: "NashTech/{controller=Rookies}/{action=Index}/{id?}");
             app.MapControllerRoute(
-                name: "MyRoute",
+                name: "MyRouteNashTech",
                 pattern: "{area:exists}/{controller=Rookies}/{action=Index}/{id?}");
             app.MapControllerRoute(
                 name: "default",

@@ -1,5 +1,5 @@
 ﻿@using MVCAssignment.WebApp.Areas.NashTech.Models;
-@model Person
+@model IEnumerable<Person>
 <!DOCTYPE html>
 <html>
 
@@ -41,16 +41,18 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>@Model.FirstName</td>
-                <td>@Model.LastName</td>
-                <td>@Model.Gender</td>
-                <td>@Model.DOB</td>
-                <td>@Model.PhoneNumber</td>
-                <td>@Model.BirthPlace</td>
-                <td>@Model.isGraduated</td>
-            </tr>
-
+            @foreach (var i in Model)
+            {
+                <tr>
+                    <td>@i.FirstName</td>
+                    <td>@i.LastName</td>
+                    <td>@i.Gender</td>
+                    <td>@i.DOB</td>
+                    <td>@i.PhoneNumber</td>
+                    <td>@i.BirthPlace</td>
+                    <td>@i.isGraduated</td>
+                </tr>
+            }
         </tbody>
     </table>
 </body>

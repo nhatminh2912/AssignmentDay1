@@ -1,0 +1,28 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create form</title>
+</head>
+<body>
+    <form method="post" action="@Url.Action("Create","Rookies",new {area = "NashTech"})">
+        ID will be auto generate to be the last of the list <br />
+        First Name: <input type="text" name="firstname" /><br />
+        Last Name: <input type="text" name="lastname" /><br />
+        Gender: <select name="gender">
+            <option value="@GenderType.Unknown">Unknown</option>
+            <option value="@GenderType.Male">Male</option>
+            <option value="@GenderType.Female">Female</option>
+            <option value="@GenderType.Others">Others</option>
+        </select><br />
+        DOB: <input type="date" name="DOB" /><br />
+        Phone Number: <input type="text" name="phonenumber" /><br />
+        Birth Place: <input type="text" name="birthplace" /><br />
+        Is Graduated: <input type="radio" name="isgraduated" value="true" checked="checked">
+        <label for="true">True</label>
+        <input type="radio" name="isgraduated" value="false">
+        <label for="false">False</label><br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

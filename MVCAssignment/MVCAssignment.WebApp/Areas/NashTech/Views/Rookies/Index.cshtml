@@ -51,10 +51,13 @@
                     <td>@i.PhoneNumber</td>
                     <td>@i.BirthPlace</td>
                     <td>@i.isGraduated</td>
+                    <td><a href="@Url.Action("ViewUpdate", "Rookies", new { area = "NashTech", id = i.Id } )">Update</a></td>
+
                 </tr>
             }
         </tbody>
     </table>
+    <td><a href="@Url.Action("ViewCreate", "Rookies", new { area = "NashTech"} )">Create</a></td>
 </body>
 
 </html>
