@@ -1,0 +1,55 @@
+﻿@using MVCAssignment.WebApp.Areas.NashTech.Models;
+@model Person
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Details form</title>
+    <style>
+        /* Add some basic styling for better appearance */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Information Table</h2>
+    <table>
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>DOB</th>
+                <th>Phone Number</th>
+                <th>Birth Place</th>
+                <th>Is Graduated</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.FirstName</td>
+                <td>@Model.LastName</td>
+                <td>@Model.Gender</td>
+                <td>@Model.DOB</td>
+                <td>@Model.PhoneNumber</td>
+                <td>@Model.BirthPlace</td>
+                <td>@Model.isGraduated</td>                
+            </tr>
+        </tbody>
+    </table>
+    <td><a href="@Url.Action("Delete", "Rookies", new { area = "NashTech", id = @Model.Id} )">Delete</a></td>
+</body>
+</html>

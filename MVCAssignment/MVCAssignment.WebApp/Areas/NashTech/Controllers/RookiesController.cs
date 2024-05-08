@@ -1,11 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCAssignment.WebApp.Areas.NashTech.Models;
-using System.Collections;
 using ClosedXML.Excel;
 using System.Data;
-using System.Linq;
-using Humanizer;
-using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
 {
@@ -13,11 +9,12 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
     public class RookiesController : Controller
     {
         private readonly IPersonService _personService;
-
+        private List<Person> _people;
         // Constructor with dependency injection
         public RookiesController(IPersonService personService)
         {
             _personService = personService;
+            _people = ListInitial();
         }
 
         public IActionResult ViewUpdate(string id)
@@ -28,29 +25,57 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
         [HttpPost]
         public IActionResult Update(string id, string firstname, string lastname, GenderType gender, DateOnly DOB, string phonenumber, string birthplace, bool isgraduated)
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
 
-            for (int i = 0; i<people.Count; i++)
+            for (int i = 0; i<_people.Count; i++)
             {
                 if (int.TryParse(id, out int result)) 
                 {
-                    if (people[i].Id == result)
+                    if (_people[i].Id == result)
                     {
-                        people[i].FirstName = firstname;
-                        people[i].LastName = lastname;
-                        people[i].Gender = gender;
-                        people[i].DOB = DOB;
-                        people[i].PhoneNumber = phonenumber;
-                        people[i].BirthPlace = birthplace;
-                        people[i].isGraduated = isgraduated;
+                        _people[i].FirstName = firstname;
+                        _people[i].LastName = lastname;
+                        _people[i].Gender = gender;
+                        _people[i].DOB = DOB;
+                        _people[i].PhoneNumber = phonenumber;
+                        _people[i].BirthPlace = birthplace;
+                        _people[i].isGraduated = isgraduated;
 
-                        return View("Index", people);
+                        return View("Index", _people);
                     }
                 }
                 
             }
-            return View("Index", people);
+            return View("Index", _people);
+        }
+
+        public IActionResult ViewDetails(int id, string firstname, string lastname, GenderType gender, DateOnly DOB, string phonenumber, string birthplace, bool isgraduated)
+        {
+                Person per = new Person
+                {
+                    Id=id,
+                    FirstName = firstname,
+                    LastName = lastname,
+                    Gender = gender,
+                    DOB = DOB,
+                    PhoneNumber = phonenumber,
+                    BirthPlace = birthplace,
+                    isGraduated = isgraduated
+                };
+            return View("Details", per);
+        }
+
+        public IActionResult Delete(int id)
+        {
+
+            foreach (Person per in _people)
+            {
+                    if (per.Id == id)
+                    {
+                        _people.Remove(per);
+                        return View("Index", _people);
+                    }          
+            }
+            return View("Index", _people);
         }
 
         public IActionResult ViewCreate()
@@ -61,37 +86,32 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
         [HttpPost]
         public IActionResult Create(string firstname, string lastname, GenderType gender, DateOnly DOB, string phonenumber, string birthplace, bool isgraduated)
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
 
-            Person newPerson = new Person();
-            newPerson.Id = people.Count + 1;
-            newPerson.FirstName = firstname;
-            newPerson.LastName = lastname;
-            newPerson.Gender = gender;
-            newPerson.DOB = DOB;
-            newPerson.PhoneNumber = phonenumber;
-            newPerson.BirthPlace = birthplace;
-            newPerson.isGraduated = isgraduated;
+            Person newPerson = new Person {
+                Id = _people.Count,
+                FirstName = firstname,
+                LastName = lastname,
+                Gender = gender,
+                DOB = DOB,
+                PhoneNumber = phonenumber,
+                BirthPlace  = birthplace,
+                isGraduated = isgraduated
+            };
 
-            people.Add(newPerson);
+            _people.Add(newPerson);
 
-            return View("Index", people);
+            return View("Index", _people);
         }
 
         public IActionResult Index()
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
-            return View(people);
+            return View(_people);
         }
 
         public IActionResult FindMale()
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
 
-            IEnumerable<Person> MaleOnly = from person in people
+            IEnumerable<Person> MaleOnly = from person in _people
                                            where person.Gender == GenderType.Male
                                            select person;
 
@@ -100,44 +120,37 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
 
         public IActionResult FindOldest()
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
 
-            IEnumerable<Person> oldestPerson = from person in people
-                                               where person.DOB.Year == people.Min(x => x.DOB.Year)
+            IEnumerable<Person> oldestPerson = from person in _people
+                                               where person.DOB.Year == _people.Min(x => x.DOB.Year)
                                                select person;
             return View(oldestPerson);
         }
 
         public IActionResult FullName()
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
-
-            return View(people);
+            return View(_people);
         }
 
         public IActionResult FindBirthYear(string method, int year)
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
 
             IEnumerable<Person> peopleBasedOnYear = new List<Person>();
 
             switch (method)
             {
                 case "greater":
-                    peopleBasedOnYear = from person in people
+                    peopleBasedOnYear = from person in _people
                                         where person.DOB.Year > year
                                         select person;
                     return View(peopleBasedOnYear);
                 case "less":
-                    peopleBasedOnYear = from person in people
+                    peopleBasedOnYear = from person in _people
                                         where person.DOB.Year < year
                                         select person;
                     return View(peopleBasedOnYear);
                 case "equal":
-                    peopleBasedOnYear = from person in people
+                    peopleBasedOnYear = from person in _people
                                         where person.DOB.Year == year
                                         select person;
                     return View(peopleBasedOnYear);
@@ -147,8 +160,6 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
         }
         public FileResult ReturnFile()
         {
-            List<Person> people = new List<Person>();
-            people = AddPersonToList();
 
             DataTable dt = new DataTable("List");
 
@@ -159,7 +170,7 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
                                             new DataColumn("PhoneNumber"),
                                             new DataColumn("BirthPlace"),
                                             new DataColumn("isGraduated") });
-            foreach (var person in people)
+            foreach (var person in _people)
             {
                 dt.Rows.Add(person.FirstName, person.LastName, person.Gender, person.DOB, person.PhoneNumber, person.BirthPlace, person.isGraduated);
             }
@@ -175,7 +186,7 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
             }
         }
 
-        public List<Person> AddPersonToList()
+        public List<Person> ListInitial()
         {
             List<Person> people = new List<Person>();
             people.Add(new Person(0, "Minh", "Hoang", GenderType.Male, new DateOnly(1997, 12, 29), "0900000000", "Ha Noi", true));

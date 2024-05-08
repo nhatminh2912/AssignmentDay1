@@ -41,10 +41,10 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var i in Model)
+            @foreach (Person i in Model)
             {
                 <tr>
-                    <td>@i.FirstName</td>
+                    <td><a href="@Url.Action("ViewDetails", "Rookies", new { area = "NashTech", id = i.Id, firstname = i.FirstName, lastname = i.LastName, gender = i.Gender, DOB = i.DOB, phonenumber = i.PhoneNumber, birthplace = i.BirthPlace, isgraduated = i.isGraduated } )">@i.FirstName</a></td>
                     <td>@i.LastName</td>
                     <td>@i.Gender</td>
                     <td>@i.DOB</td>
@@ -57,7 +57,7 @@
             }
         </tbody>
     </table>
-    <td><a href="@Url.Action("ViewCreate", "Rookies", new { area = "NashTech"} )">Create</a></td>
+    <a href="@Url.Action("ViewCreate", "Rookies", new { area = "NashTech"} )">Create</a>
 </body>
 
 </html>
