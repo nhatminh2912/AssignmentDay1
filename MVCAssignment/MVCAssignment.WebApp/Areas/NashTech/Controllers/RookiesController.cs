@@ -87,7 +87,8 @@ namespace MVCAssignment.WebApp.Areas.NashTech.Controllers
         public IActionResult Create(string firstname, string lastname, GenderType gender, DateOnly DOB, string phonenumber, string birthplace, bool isgraduated)
         {
 
-            Person newPerson = new Person {
+            Person newPerson = new Person 
+            {
                 Id = _people.Count,
                 FirstName = firstname,
                 LastName = lastname,

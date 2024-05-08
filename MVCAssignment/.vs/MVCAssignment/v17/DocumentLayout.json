@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\areas\\nashtech\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|d:\\rookie__batch7\\assignments\\mvcassignment\\mvcassignment.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|d:\\rookie__batch7\\assignments\\mvcassignment\\mvcassignment.webapp\\areas\\nashtech\\views\\rookies\\confirmationview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\areas\\nashtech\\views\\rookies\\confirmationview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|d:\\rookie__batch7\\assignments\\mvcassignment\\mvcassignment.webapp\\areas\\nashtech\\views\\rookies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\areas\\nashtech\\views\\rookies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\areas\\nashtech\\views\\rookies\\findmale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|d:\\rookie__batch7\\assignments\\mvcassignment\\mvcassignment.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|d:\\rookie__batch7\\assignments\\mvcassignment\\mvcassignment.webapp\\areas\\nashtech\\views\\rookies\\findoldest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\areas\\nashtech\\views\\rookies\\findoldest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ConfirmationView.cshtml",
+              "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\ConfirmationView.cshtml",
+              "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\ConfirmationView.cshtml",
+              "ToolTip": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\ConfirmationView.cshtml",
+              "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\ConfirmationView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T09:18:20.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PersonService.cs",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Models\\PersonService.cs",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Models\\PersonService.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Models\\PersonService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T08:29:08.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T08:29:08.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FindBirthYear.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FindBirthYear.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FindBirthYear.cshtml",
@@ -91,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\_Layout.cshtml",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "FullName.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FullName.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FullName.cshtml",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FindOldest.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FindOldest.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FindOldest.cshtml",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "FindMale.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FindMale.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FindMale.cshtml",
@@ -135,12 +151,11 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\FindMale.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T07:53:13.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T07:53:13.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Update.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Update.cshtml",
@@ -148,12 +163,11 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Update.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T07:50:17.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T07:50:17.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Details.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Details.cshtml",
@@ -161,12 +175,11 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Details.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T07:45:49.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T07:45:49.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Program.cs",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Program.cs",
@@ -174,11 +187,12 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Program.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwC0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T06:04:31.399Z"
+              "WhenOpened": "2024-05-08T06:04:31.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IPersonService.cs",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Models\\IPersonService.cs",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Models\\IPersonService.cs",
@@ -186,12 +200,11 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Models\\IPersonService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T05:58:52.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T05:58:52.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Create.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Create.cshtml",
@@ -199,12 +212,11 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Create.cshtml",
               "ViewState": "AQIAAAEAAAAAAAAAAAAcwBYAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T05:56:56.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T05:56:56.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Index.cshtml",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Index.cshtml",
@@ -212,8 +224,7 @@
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Views\\Rookies\\Index.cshtml",
               "ViewState": "AQIAACMAAAAAAAAAAAAEwDsAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T04:06:59.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T04:06:59.166Z"
             },
             {
               "$type": "Document",
@@ -223,7 +234,7 @@
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Controllers\\RookiesController.cs",
               "ToolTip": "D:\\Rookie__Batch7\\Assignments\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Controllers\\RookiesController.cs",
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Controllers\\RookiesController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAiwEIAAAArAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAA0AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T09:49:19.548Z",
               "EditorCaption": ""

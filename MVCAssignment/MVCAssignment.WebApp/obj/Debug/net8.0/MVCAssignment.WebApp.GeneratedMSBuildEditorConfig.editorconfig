@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Rookie__Batch7\Assignments\MVCAssignment\MVCAssignment.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/ConfirmationView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xDb25maXJtYXRpb25WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
