@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APIAssignmentDay2.props" />
+</Project>
