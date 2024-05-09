@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\",
+  "WorkspaceRootPath": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie__batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|solutionrelative:apiassignmentday2\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie__batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie_batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|solutionrelative:apiassignmentday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie__batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|solutionrelative:apiassignmentday2\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie_batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|solutionrelative:apiassignmentday2\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie__batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|solutionrelative:apiassignmentday2\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie_batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|solutionrelative:apiassignmentday2\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|d:\\rookie_batch7\\assignments\\apiassignmentday2\\apiassignmentday2\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E87E46-CC45-4021-88A3-473FA82D64D2}|APIAssignmentDay2\\APIAssignmentDay2.csproj|solutionrelative:apiassignmentday2\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PersonController.cs",
-              "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Controllers\\PersonController.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "APIAssignmentDay2\\Controllers\\PersonController.cs",
-              "ToolTip": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Controllers\\PersonController.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Controllers\\PersonController.cs",
               "RelativeToolTip": "APIAssignmentDay2\\Controllers\\PersonController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAABAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T04:12:18.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PersonService.cs",
-              "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Services\\PersonService.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Services\\PersonService.cs",
               "RelativeDocumentMoniker": "APIAssignmentDay2\\Services\\PersonService.cs",
-              "ToolTip": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Services\\PersonService.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Services\\PersonService.cs",
               "RelativeToolTip": "APIAssignmentDay2\\Services\\PersonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAhwBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T04:09:32.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Person.cs",
-              "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Person.cs",
-              "RelativeDocumentMoniker": "APIAssignmentDay2\\Person.cs",
-              "ToolTip": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Person.cs",
-              "RelativeToolTip": "APIAssignmentDay2\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "APIAssignmentDay2\\Models\\Person.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Models\\Person.cs",
+              "RelativeToolTip": "APIAssignmentDay2\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T04:05:28.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Program.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Program.cs",
               "RelativeDocumentMoniker": "APIAssignmentDay2\\Program.cs",
-              "ToolTip": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Program.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\Program.cs",
               "RelativeToolTip": "APIAssignmentDay2\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T04:01:09.895Z",
               "EditorCaption": ""

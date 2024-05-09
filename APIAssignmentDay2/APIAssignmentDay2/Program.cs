@@ -10,11 +10,11 @@ namespace APIAssignmentDay2
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            
             builder.Services.AddControllers();
 
             // Register the PersonService
-            builder.Services.AddScoped<PersonService>();
+            builder.Services.AddSingleton<PersonService>();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>

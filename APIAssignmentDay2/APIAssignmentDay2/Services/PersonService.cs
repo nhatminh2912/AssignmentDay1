@@ -1,4 +1,6 @@
-﻿namespace APIAssignmentDay2.Services
+﻿using APIAssignmentDay2.Models;
+
+namespace APIAssignmentDay2.Services
 {
     public class PersonService
     {
@@ -9,8 +11,8 @@
             // Initialize the list with dummy data, and use unique Id values
             _people = new List<Person>
         {
-            new Person { Id = 1, FirstName = "John", LastName = "Doe", DateOfBirth = new DateTime(1980, 5, 15), Gender = "Male", BirthPlace = "New York" },
-            new Person { Id = 2, FirstName = "Jane", LastName = "Doe", DateOfBirth = new DateTime(1985, 10, 20), Gender = "Female", BirthPlace = "Los Angeles" }
+            new Person { Id = Guid.NewGuid(), FirstName = "John", LastName = "Doe", DateOfBirth = new DateTime(1980, 5, 15), Gender = "Male", BirthPlace = "New York" },
+            new Person { Id = Guid.NewGuid(), FirstName = "Jane", LastName = "Doe", DateOfBirth = new DateTime(1985, 10, 20), Gender = "Female", BirthPlace = "Los Angeles" }
             // Add more dummy data with unique Ids as needed
         };
         }
@@ -25,12 +27,12 @@
         public void AddPerson(Person person)
         {
             // Assign a new Id value to the person and add it to the list
-            person.Id = _people.Any() ? _people.Max(p => p.Id) + 1 : 1;
+            person.Id = Guid.NewGuid();
             _people.Add(person);
         }
 
         // Function to update a person by Id
-        public bool UpdatePerson(int id, Person updatedPerson)
+        public bool UpdatePerson(Guid id, Person updatedPerson)
         {
             var person = _people.FirstOrDefault(p => p.Id == id);
             if (person != null)
@@ -47,7 +49,7 @@
         }
 
         // Function to delete a person by Id
-        public bool DeletePerson(int id)
+        public bool DeletePerson(Guid id)
         {
             var person = _people.FirstOrDefault(p => p.Id == id);
             if (person != null)
@@ -59,7 +61,7 @@
         }
 
         // Function to filter people based on name, gender, and birth place
-        public List<Person> FilterPeople(string name = null, string gender = null, string birthPlace = null)
+        public List<Person> FilterPeople(string name, string gender, string birthPlace)
         {
             var query = _people.AsQueryable();
 

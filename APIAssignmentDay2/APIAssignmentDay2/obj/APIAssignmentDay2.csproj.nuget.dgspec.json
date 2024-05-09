@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj": {}
+    "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj": {}
   },
   "projects": {
-    "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj": {
+    "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj",
+        "projectUniqueName": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj",
         "projectName": "APIAssignmentDay2",
-        "projectPath": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj",
+        "projectPath": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\APIAssignmentDay2.csproj",
         "packagesPath": "C:\\Users\\nhatm\\.nuget\\packages\\",
-        "outputPath": "D:\\Rookie__Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\obj\\",
+        "outputPath": "D:\\Rookie_Batch7\\Assignments\\APIAssignmentDay2\\APIAssignmentDay2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nhatm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

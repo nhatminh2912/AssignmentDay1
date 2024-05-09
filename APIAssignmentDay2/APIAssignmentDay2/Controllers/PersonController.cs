@@ -1,6 +1,7 @@
-﻿using APIAssignmentDay2.Services;
+﻿using APIAssignmentDay2.Models;
+using APIAssignmentDay2.Services;
 using Microsoft.AspNetCore.Mvc;
-
+using Swashbuckle.AspNetCore.Annotations;
 namespace APIAssignmentDay2.Controllers
 {
     [ApiController]
@@ -31,7 +32,7 @@ namespace APIAssignmentDay2.Controllers
 
         // Update person by Id
         [HttpPut("{id}")]
-        public IActionResult UpdatePerson(int id, [FromBody] Person updatedPerson)
+        public IActionResult UpdatePerson(Guid id, [FromBody] Person updatedPerson)
         {
             var success = _personService.UpdatePerson(id, updatedPerson);
             if (success)
@@ -43,7 +44,7 @@ namespace APIAssignmentDay2.Controllers
 
         // Delete a person by Id
         [HttpDelete("{id}")]
-        public IActionResult DeletePerson(int id)
+        public IActionResult DeletePerson(Guid id)
         {
             var success = _personService.DeletePerson(id);
             if (success)
