@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\configs\\databaseconnections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\configs\\databaseconnections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\models\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\models\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\models\\projectemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\models\\projectemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|d:\\rookie_batch7\\assignments\\efcoreassignmentday1\\efcoreassignmentday1\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBAE27D-2BDB-4A3F-8941-1B1DC612A54F}|EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj|solutionrelative:efcoreassignmentday1\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseConnections.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Configs\\DatabaseConnections.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Configs\\DatabaseConnections.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Configs\\DatabaseConnections.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Configs\\DatabaseConnections.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:19:17.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Models\\Salary.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Salary.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Models\\Salary.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:11:34.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectEmployee.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\ProjectEmployee.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Models\\ProjectEmployee.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\ProjectEmployee.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Models\\ProjectEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:10:52.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Models\\Project.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Project.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:10:41.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Models\\Employee.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Employee.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:10:31.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Models\\Department.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\Department.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T07:52:56.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\appsettings.json",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\appsettings.json",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\appsettings.json",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-10T06:55:01.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\MyContext.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Models\\MyContext.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Models\\MyContext.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Models\\MyContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:54:28.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Program.cs",
+              "RelativeDocumentMoniker": "EFCoreAssignmentDay1\\Program.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\Program.cs",
+              "RelativeToolTip": "EFCoreAssignmentDay1\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:53:37.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
