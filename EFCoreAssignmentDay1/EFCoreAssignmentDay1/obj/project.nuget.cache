@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BnrY9e8Sr+kaq5lQmNVHNy/cheGZUDFJgJ2oed9kKr6hurovzVzLKhT1Choeg9mGc89Eoo68ICXe8rn8dhV1bQ==",
+  "dgSpecHash": "LlrTTpG9W5rkcc3zgfhLzRI6h8wL1m1kN/swcFWiRuCACL/+YZk/7nVznB58rGysZeKLsM7QJBlqz8ezfkSI8A==",
   "success": true,
-  "projectFilePath": "D:\\Rookie_Batch7\\RookiesBatch7\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj",
+  "projectFilePath": "D:\\Rookie_Batch7\\Assignments\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1\\EFCoreAssignmentDay1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhatm\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nhatm\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
