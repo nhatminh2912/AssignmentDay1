@@ -34,10 +34,8 @@ namespace APIAssignmentDay1
 
             // Configure routing and endpoints
             app.UseRouting();
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            
+            app.MapControllers();
 
             app.Run();
         }
