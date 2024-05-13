@@ -1,4 +1,5 @@
 ﻿using EFCoreAssignmentDay1.Configs;
+using EFCoreAssignmentDay1.DTO;
 using EFCoreAssignmentDay1.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,7 +12,8 @@ namespace EFCoreAssignmentDay1.DBcontext
         {
             _databaseConnections = databaseConnections;
         }
-
+        public DbSet<EmployeeWithDepartmentDto> EmployeeWithDepartmentDto { get; set; }
+        public DbSet<EmployeeWithProjectsDto> EmployeeWithProjectsDto { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Employee> Employees { get; set; }
@@ -52,12 +54,18 @@ namespace EFCoreAssignmentDay1.DBcontext
                 .WithMany(e => e.ProjectEmployees)
                 .HasForeignKey(pe => pe.EmployeeId);
 
+            // Ensure no table is created for DbQuery properties
+            modelBuilder.Ignore<EmployeeWithDepartmentDto>();
+            modelBuilder.Ignore<EmployeeWithProjectsDto>();
+
+            // Seed Data for Department table
             modelBuilder.Entity<Department>().HasData(
             new Department { Id = Guid.NewGuid(), Name = "Accounting" },
             new Department { Id = Guid.NewGuid(), Name = "Finance" },
             new Department { Id = Guid.NewGuid(), Name = "HR" },
             new Department { Id = Guid.NewGuid(), Name = "Software Development" }
             );
+
         }
     }
 }
