@@ -1,7 +1,8 @@
 ﻿using EFCoreAssignmentDay1.Configs;
+using EFCoreAssignmentDay1.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFCoreAssignmentDay1.Models
+namespace EFCoreAssignmentDay1.DBcontext
 {
     public class MyContext : DbContext
     {

@@ -1,5 +1,5 @@
 using EFCoreAssignmentDay1.Configs;
-using EFCoreAssignmentDay1.Models;
+using EFCoreAssignmentDay1.DBcontext;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreAssignmentDay1
@@ -11,7 +11,8 @@ namespace EFCoreAssignmentDay1
             var builder = WebApplication.CreateBuilder(args);
 
             var databaseConnection = new DatabaseConnections();
-            builder.Configuration.GetSection("ConnectionStrings").Bind(databaseConnection);
+
+            builder.Configuration.GetSection("DatabaseConnections").Bind(databaseConnection);
             // Add services to the container.// Register DatabaseSettings as a service
             builder.Services.AddSingleton(databaseConnection);
             
