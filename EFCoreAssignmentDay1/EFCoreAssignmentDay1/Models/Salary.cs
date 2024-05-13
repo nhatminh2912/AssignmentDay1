@@ -11,6 +11,6 @@ namespace EFCoreAssignmentDay1.Models
         public Employee Employee { get; set; }
 
         [Required]
-        public decimal Amount { get; set; }
+        public float Amount { get; set; }
     }
 }

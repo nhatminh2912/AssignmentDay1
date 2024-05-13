@@ -13,7 +13,7 @@ namespace EFCoreAssignmentDay1
             var databaseConnection = new DatabaseConnections();
             builder.Configuration.GetSection("ConnectionStrings").Bind(databaseConnection);
             // Add services to the container.// Register DatabaseSettings as a service
-            builder.Services.AddSingleton<DatabaseConnections>();
+            builder.Services.AddSingleton(databaseConnection);
             
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
