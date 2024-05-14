@@ -12,9 +12,9 @@ namespace EFCoreAssignmentDay1.Models
         [MaxLength(100)]
         public string Name { get; set; } = string.Empty;
         public Guid DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
         public DateTime JoinedDate { get; set; }
-        public Salary Salary { get; set; }
-        public ICollection<ProjectEmployee> ProjectEmployees { get; set; }
+        public Salary? Salary { get; set; }
+        public ICollection<ProjectEmployee>? ProjectEmployees { get; set; }
     }
 }

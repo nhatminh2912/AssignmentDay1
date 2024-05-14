@@ -8,7 +8,7 @@ namespace EFCoreAssignmentDay1.Models
     {
         public Guid Id { get; set; }
         public Guid EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public Employee? Employee { get; set; }
 
         [Required]
         public float Amount { get; set; }

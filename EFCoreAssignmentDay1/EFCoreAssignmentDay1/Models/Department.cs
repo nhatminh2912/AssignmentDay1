@@ -11,6 +11,6 @@ namespace EFCoreAssignmentDay1.Models
         [Required]
         [MaxLength(100)]
         public string Name { get; set; } = string.Empty;
-        public ICollection<Employee> Employees { get; set; }
+        public ICollection<Employee>? Employees { get; set; }
     }
 }

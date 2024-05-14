@@ -17,83 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCAssignment.WebApp
 build_property.RootNamespace = MVCAssignment.WebApp
-build_property.ProjectDir = D:\Rookie__Batch7\Assignments\MVCAssignment\MVCAssignment.WebApp\
+build_property.ProjectDir = D:\Rookie_Batch7\RookiesBatch7\MVCAssignment\MVCAssignment.WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Rookie__Batch7\Assignments\MVCAssignment\MVCAssignment.WebApp
+build_property.MSBuildProjectDirectory = D:\Rookie_Batch7\RookiesBatch7\MVCAssignment\MVCAssignment.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/ConfirmationView.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/ConfirmationView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xDb25maXJtYXRpb25WaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Create.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Details.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FindBirthYear.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FindBirthYear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xGaW5kQmlydGhZZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FindMale.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FindMale.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xGaW5kTWFsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FindOldest.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FindOldest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xGaW5kT2xkZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FullName.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/FullName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xGdWxsTmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Index.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Update.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/_ViewImports.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Views/Home/Index.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Views/Home/Privacy.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Views/Shared/Error.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/_ViewImports.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/_ViewStart.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/_Layout.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Areas/NashTech/Views/Rookies/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUm9va2llc1xfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-4i41lnywv9
 
-[D:/Rookie__Batch7/Assignments/MVCAssignment/MVCAssignment.WebApp/Views/Shared/_Layout.cshtml]
+[D:/Rookie_Batch7/RookiesBatch7/MVCAssignment/MVCAssignment.WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vm6i8404mo

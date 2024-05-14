@@ -58,14 +58,44 @@ namespace EFCoreAssignmentDay1.DBcontext
             modelBuilder.Ignore<EmployeeWithDepartmentDto>();
             modelBuilder.Ignore<EmployeeWithProjectsDto>();
 
-            // Seed Data for Department table
-            modelBuilder.Entity<Department>().HasData(
-            new Department { Id = Guid.NewGuid(), Name = "Accounting" },
+            // Seeding data
+            var departments = new List<Department>
+        {
+            new Department { Id = Guid.NewGuid(), Name = "Software Development" },
             new Department { Id = Guid.NewGuid(), Name = "Finance" },
-            new Department { Id = Guid.NewGuid(), Name = "HR" },
-            new Department { Id = Guid.NewGuid(), Name = "Software Development" }
-            );
+            new Department { Id = Guid.NewGuid(), Name = "Accountant" },
+            new Department { Id = Guid.NewGuid(), Name = "HR" }
+        };
 
+            var projects = new List<Project>
+        {
+            new Project { Id = Guid.NewGuid(), Name = "Project A" },
+            new Project { Id = Guid.NewGuid(), Name = "Project B" }
+        };
+
+            var employees = new List<Employee>
+        {
+            new Employee { Id = Guid.NewGuid(), Name = "John Doe", DepartmentId = departments[0].Id, JoinedDate = new DateTime(2023, 6, 1) },
+            new Employee { Id = Guid.NewGuid(), Name = "Jane Smith", DepartmentId = departments[1].Id, JoinedDate = new DateTime(2024, 1, 1) }
+        };
+
+            var salaries = new List<Salary>
+        {
+            new Salary { Id = Guid.NewGuid(), EmployeeId = employees[0].Id, Amount = 1500f },
+            new Salary { Id = Guid.NewGuid(), EmployeeId = employees[1].Id, Amount = 2000f }
+        };
+
+            var projectEmployees = new List<ProjectEmployee>
+        {
+            new ProjectEmployee { ProjectId = projects[0].Id, EmployeeId = employees[0].Id, Enable = true },
+            new ProjectEmployee { ProjectId = projects[1].Id, EmployeeId = employees[1].Id, Enable = true }
+        };
+
+            modelBuilder.Entity<Department>().HasData(departments);
+            modelBuilder.Entity<Project>().HasData(projects);
+            modelBuilder.Entity<Employee>().HasData(employees);
+            modelBuilder.Entity<Salary>().HasData(salaries);
+            modelBuilder.Entity<ProjectEmployee>().HasData(projectEmployees);
         }
     }
 }
