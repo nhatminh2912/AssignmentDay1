@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oQSDSbku6b2UlggWS6npYhWSvLTFb5M3+nOaqO3owAONOhUPrVQGru38ed/bzJMSrMzFr3L9LCrdCUNwmPYYjA==",
+  "dgSpecHash": "uv0qHHBW0yNsNOGl18D5brtKp66RV+QQVvy1tmvhSz+0VXwgw7sBeDFHodXn+htn2YO5uEnS/psJU4S3MaCyJw==",
   "success": true,
   "projectFilePath": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj",
   "expectedPackageFiles": [
@@ -199,14 +199,7 @@
     "C:\\Users\\nhatm\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
     "C:\\Users\\nhatm\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\nhatm\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xlparser\\1.5.2\\xlparser.1.5.2.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xunit\\2.8.0\\xunit.2.8.0.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xunit.analyzers\\1.13.0\\xunit.analyzers.1.13.0.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xunit.assert\\2.8.0\\xunit.assert.2.8.0.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xunit.core\\2.8.0\\xunit.core.2.8.0.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xunit.extensibility.core\\2.8.0\\xunit.extensibility.core.2.8.0.nupkg.sha512",
-    "C:\\Users\\nhatm\\.nuget\\packages\\xunit.extensibility.execution\\2.8.0\\xunit.extensibility.execution.2.8.0.nupkg.sha512"
+    "C:\\Users\\nhatm\\.nuget\\packages\\xlparser\\1.5.2\\xlparser.1.5.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A51EA053-7DBB-4107-84B0-94CE54252DC0}|MVCAssignment.Tests\\MVCAssignment.Tests.csproj|d:\\rookie_batch7\\rookiesbatch7\\mvcassignment\\mvcassignment.tests\\rookiescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51EA053-7DBB-4107-84B0-94CE54252DC0}|MVCAssignment.Tests\\MVCAssignment.Tests.csproj|solutionrelative:mvcassignment.tests\\rookiescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51EA053-7DBB-4107-84B0-94CE54252DC0}|MVCAssignment.Tests\\MVCAssignment.Tests.csproj|d:\\rookie_batch7\\rookiesbatch7\\mvcassignment\\mvcassignment.tests\\mvcassignment.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A51EA053-7DBB-4107-84B0-94CE54252DC0}|MVCAssignment.Tests\\MVCAssignment.Tests.csproj|solutionrelative:mvcassignment.tests\\mvcassignment.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|d:\\rookie_batch7\\rookiesbatch7\\mvcassignment\\mvcassignment.webapp\\areas\\nashtech\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\areas\\nashtech\\controllers\\rookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|d:\\rookie_batch7\\rookiesbatch7\\mvcassignment\\mvcassignment.webapp\\mvcassignment.webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A5B38F3-29A4-4435-980E-C0B7D0ECDE69}|MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj|solutionrelative:mvcassignment.webapp\\mvcassignment.webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MVCAssignment.WebApp",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj",
+              "RelativeDocumentMoniker": "MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj",
+              "ToolTip": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj",
+              "RelativeToolTip": "MVCAssignment.WebApp\\MVCAssignment.WebApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-15T04:10:06.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MVCAssignment.Tests",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.Tests\\MVCAssignment.Tests.csproj",
+              "RelativeDocumentMoniker": "MVCAssignment.Tests\\MVCAssignment.Tests.csproj",
+              "ToolTip": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.Tests\\MVCAssignment.Tests.csproj",
+              "RelativeToolTip": "MVCAssignment.Tests\\MVCAssignment.Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-15T03:47:26.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RookiesController.cs",
               "DocumentMoniker": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Controllers\\RookiesController.cs",
               "RelativeDocumentMoniker": "MVCAssignment.WebApp\\Areas\\NashTech\\Controllers\\RookiesController.cs",
               "ToolTip": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.WebApp\\Areas\\NashTech\\Controllers\\RookiesController.cs",
               "RelativeToolTip": "MVCAssignment.WebApp\\Areas\\NashTech\\Controllers\\RookiesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T08:02:26.101Z",
+              "WhenOpened": "2024-05-15T03:38:08.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RookiesControllerTests.cs",
+              "DocumentMoniker": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.Tests\\RookiesControllerTests.cs",
+              "RelativeDocumentMoniker": "MVCAssignment.Tests\\RookiesControllerTests.cs",
+              "ToolTip": "D:\\Rookie_Batch7\\RookiesBatch7\\MVCAssignment\\MVCAssignment.Tests\\RookiesControllerTests.cs",
+              "RelativeToolTip": "MVCAssignment.Tests\\RookiesControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T03:37:26.327Z",
               "EditorCaption": ""
             }
           ]
